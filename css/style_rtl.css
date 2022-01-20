@@ -1,0 +1,116 @@
+/* Main Rules */
+*{
+    font-family: "cairo" , "sans-serif";
+}
+body{
+    direction: rtl;
+    font-size: 19px;
+}
+
+/* navbar */
+.nav-item{
+    margin-right: 0;
+    margin-left: 13px;
+}
+
+
+.nav-part2 .search{
+    padding: 5px 10px  5px 5px;
+}
+
+.nav-part2 .search .icon{
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.nav-part2-icons a{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.programs-list{
+    border-right: 10px solid #1c6d8f;
+    border-left: 0;
+    font-weight: 600;
+}
+
+.program-list-title::after{
+    left:auto;
+    right: 0;
+}
+
+.program-list-title{
+    padding: 19px 19px 19px 0px;
+}
+
+
+
+.program-list-title span.mutaz{
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+
+.program-list-content{
+    padding-right: 28px;
+    padding-left: 15px;
+}
+
+.program-list-content li{
+    font-size: 15px;
+}
+
+.program-list-content li::before{
+    left:auto;
+    right: -14px;
+}
+
+.program-list-content a .pro-new{
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+
+.pro-img-name{
+
+}
+
+.pro-img-name .image{
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.pro-img-name .name span{
+    margin-left: 0;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.pro-version{
+    margin-right: 0;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.pro-version , .pro-size , .pro-core{
+    display: flex;
+    align-items: center;
+}
+
+.pro-version  span:first-of-type, .pro-size span:first-of-type , .pro-core span:first-of-type{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.pro-download-btn{
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+/* footer */
+footer{
+    font-size: 19px;
+    font-weight: 600;
+}

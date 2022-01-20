@@ -1,0 +1,149 @@
+::selection{
+    background-color: #2188D9;
+    color:#fff;
+}
+
+body{
+    background-color: #2B2B2B;
+}
+
+.navbar {
+    background-color: #3C3C3C;
+}
+
+.nav-part2{
+    background-color: #3C3C3C;
+}
+
+.nav-part2::after{
+    background-color: #3C3C3C;
+}
+
+.nav-link.active{
+    background-color: #2188D9;
+}
+
+.nav-link:hover{
+    background-color: #2188D9;
+}
+
+.nav-part2 .search{
+    background-color: #2B2B2B;
+    border:1px solid #5C5C5C;
+}
+
+.nav-part2 .search input{
+    background-color: transparent;
+    color:#fff
+}
+
+
+.nav-part2 .search input::placeholder{
+    color:#fff
+}
+
+
+.nav-part2-icons a{
+    background-color: #2B2B2B;
+    border:1px solid #5C5C5C;
+    transition: 0.3s;
+}
+
+.nav-part2-icons a span{
+    color:#fff ;
+}
+
+.nav-part2-icons a span::before{
+    color: #fff;
+}
+
+.nav-part2-icons a:hover{
+    background-color: #2188D9;
+}
+
+.nav-part2 .search .icon{
+    background-color: #2188D9;
+}
+
+
+.programs-content{
+    background-color: #2B2B2B;
+}
+
+.program-list-title{
+    background-color: #414141;
+    color:#fff;
+    
+}
+
+.program-list-title::after{
+    background-color:#2188D9;
+}
+
+.program-list-title span.mutaz{
+    color:#fff;
+}
+
+.programs-list{
+    border:1px solid #757575;
+    border-left:10px solid #2188D9 ;
+}
+
+.program-list-title.active{
+    background-color: #2188D9;
+    color:#fff
+}
+
+.program-list-title.active span.mutaz{
+    color:#fff;
+}
+
+.program-list-content li a{
+    color:#fff;
+}
+
+.program-list-content{
+    background-color: #414141;
+}
+
+.program-list-content a .pro-core{
+    border:1px solid #fff;
+    color:#fff;
+    background-color: transparent;
+}
+
+.program-list-content a .pro-version{
+    color:#2188D9
+}
+
+
+.pro-info{
+    background-color: #5C5C5C;
+    border-color: transparent;
+    color:#fff;
+}
+
+.pro-version span, .pro-size span, .pro-core span{
+    color:#fff
+}
+
+.pro-download-btn{
+    background-color: #2188D9;
+}
+
+.pro-download-btn:hover{
+    color:#2188D9 !important;
+    border-color: #2188D9;
+}
+
+.program-list-content li::before{
+    background-color: #2188D9;
+}
+
+footer{
+    background-color: #3C3C3C;
+}
+
+footer::before{
+    background-color: #3C3C3C
+}
