@@ -1,7 +1,7 @@
 // open list
 $(".program-list-title").click(function(){
     $(this).siblings(".program-list-content").toggleClass("open").slideToggle(200);
-    
+    $(this).toggleClass("active")
 })
 
 
@@ -81,9 +81,10 @@ document.querySelector("#expand-lists").onclick = function(){
     });
     if(expandState){
         $(".program-list-content").slideUp(200);
-
+        $(".program-list-title").removeClass("active")
     }else{
-         $(".program-list-content").slideDown(200)
+        $(".program-list-content").slideDown(200);
+        $(".program-list-title").addClass("active")
     }
 }
 
