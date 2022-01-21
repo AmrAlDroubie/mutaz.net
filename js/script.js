@@ -25,9 +25,7 @@ linkDarkAr.setAttribute("href","css/dark_mode_rtl.css");
 linkDark.setAttribute("rel","stylesheet");
 linkDark.setAttribute("href","css/dark_mode.css");
 let mode = "";
-if($("body").css("direction") == "rtl"){
-    headDom.append(linkDarkAr);
-}
+
 modeBtn.onclick = function(e){
     e.preventDefault();
     if(document.querySelector("head link[href='css/dark_mode.css']")){
@@ -53,10 +51,14 @@ window.onload = function(){
     if(localStorage.getItem("mode")=="light"){
         if(document.querySelector("head link[href='css/dark_mode.css']")){
             document.querySelector("head link[href='css/dark_mode.css']").remove();
+            document.querySelector("head link[href='css/dark_mode_rtl.css']").remove();
             modeBtn.querySelector("i").className = "fas fa-moon"
         }
     }else{
         headDom.append(linkDark);
+        if($("body").css("direction") == "rtl"){
+            headDom.append(linkDarkAr);
+        }
         modeBtn.querySelector("i").className = "mutaz mutaz-sun"
     }
 
