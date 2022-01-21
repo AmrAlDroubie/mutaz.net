@@ -1,7 +1,7 @@
 // open list
 $(".program-list-title").click(function(){
     $(this).siblings(".program-list-content").toggleClass("open").slideToggle(200);
-    $(this).toggleClass("active")
+    
 })
 
 
@@ -64,14 +64,28 @@ window.onload = function(){
 
 
 
-// expand list 
-$("#expand-lists").click(function(){
-    if($(".program-list-content"))
-    $(".program-list-content").slideToggle(200);
-    $(".program-list-title").toggleClass('active');
-})
-$(".program-list-content").addClass("active")
-console.log($(".program-list-content").hasClass("active"))
+// expand lists
+let expandState = true;
+
+document.querySelector("#expand-lists").onclick = function(){
+    document.querySelectorAll(".program-list-content").forEach(ele => {
+       if(ele.classList.contains("open")) {
+           expandState = true;
+           ele.classList.remove("open")
+       }else{
+           expandState = false;
+           ele.classList.add("open")
+       }
+    });
+    if(expandState){
+        $(".program-list-content").slideUp(200);
+
+    }else{
+         $(".program-list-content").slideDown(200)
+    }
+}
+
+
 
 
 // search submit
