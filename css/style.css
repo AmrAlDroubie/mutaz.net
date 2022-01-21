@@ -404,6 +404,14 @@ body{
     color:#000;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:767px){
+    .program-list-content li a{
+        margin:10px 0;
+        width:100%;
+    }
 }
 
 .program-list-content a .pro-name{
