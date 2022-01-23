@@ -55,8 +55,9 @@ body{
 
 
 .program-list-content{
-    padding-right: 28px;
-    padding-left: 15px;
+    padding-right: 12px;
+    padding-left: 25px;
+    direction: ltr;
 }
 
 .program-list-content li{
@@ -64,15 +65,18 @@ body{
 }
 
 .program-list-content li::before{
-    left:auto;
-    right: -14px;
+    left:-11px;
+    top:8px;
 }
 
 .program-list-content a .pro-new{
-    margin-left: 0;
-    margin-right: 10px;
 }
 
+
+.pro-info{
+    direction: rtl;
+    text-align: right;
+}
 
 .pro-img-name{
 

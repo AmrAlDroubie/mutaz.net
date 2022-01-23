@@ -90,6 +90,21 @@
     font-display: swap;
 }
 
+/* scroll bar */
+::-webkit-scrollbar{
+    width:9px;
+    background-color: #d0d0d0;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1C6D8F;
+    border-radius: 5px;
+
+}
+
+
+
 
 /* Main Rules */
 *{
@@ -274,16 +289,23 @@ body{
 }
 
 .programs-content .ads {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .programs-content .ads img{
     width:240px;
+    height: 90px;
     transition: 0.3s;
 }
 
 .programs-content .ads img:hover{
     transform: translateY(-15px);
+}
+
+@media(max-width:1199px){
+    .programs-content .ads{
+        display: none !important;
+    }
 }
 
 @media(max-width:767px){
@@ -379,7 +401,6 @@ body{
     padding-bottom: 25px;
     padding-top: 15px;
     display: none;
-
 }
 
 .program-list-content li{
@@ -397,13 +418,14 @@ body{
     border-radius: 2px;
     position: absolute;
     left:-14px;
-    top:10px
+    top:6px
 }
 
 .program-list-content li a {
     color:#000;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+
 }
 
 
@@ -413,7 +435,7 @@ body{
 }
 
 .program-list-content a .pro-version{
-    margin:0 17px;
+    margin:0 5px;
     color:#1C6D8F;
 }
 
@@ -422,6 +444,7 @@ body{
     background-color: #EBF4F7;
     padding:4px 6px;
     border-radius: 6px;
+    align-self: center;
 }
 
 .program-list-content a .pro-new{
@@ -430,6 +453,7 @@ body{
     padding: 3px 6px;
     margin-left: 10px;
     border-radius: 3px;
+    align-self: center;
 }
 
 .pro-info{

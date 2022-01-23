@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mutaz';
-  src:  url('../fonts/mutaz.eot?vi4wlj');
-  src:  url('../fonts/mutaz.eot?vi4wlj#iefix') format('embedded-opentype'),
-    url('../fonts/mutaz.ttf?vi4wlj') format('truetype'),
-    url('../fonts/mutaz.woff?vi4wlj') format('woff'),
-    url('../fonts/mutaz.svg?vi4wlj#mutaz') format('svg');
+  src:  url('../fonts/mutaz.eot?uqzypz');
+  src:  url('../fonts/mutaz.eot?uqzypz#iefix') format('embedded-opentype'),
+    url('../fonts/mutaz.ttf?uqzypz') format('truetype'),
+    url('../fonts/mutaz.woff?uqzypz') format('woff'),
+    url('../fonts/mutaz.svg?uqzypz#mutaz') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,193 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.mutaz-sun:before {
+  content: "\e95b";
+}
+.mutaz-Group-100:before {
+  content: "\e94a";
+  color: inherit;
+}
+.mutaz-Group-101:before {
+  content: "\e94b";
+  color: inherit;
+}
+.mutaz-Group-104:before {
+  content: "\e94c";
+  color: inherit;
+}
+.mutaz-Group-157:before {
+  content: "\e94d";
+  color: inherit;
+}
+.mutaz-Group-1042:before {
+  content: "\e94e";
+  color: inherit;
+}
+.mutaz-Group-73:before {
+  content: "\e94f";
+  color: inherit;
+}
+.mutaz-Group-92:before {
+  content: "\e950";
+  color: inherit;
+}
+.mutaz-Group-96:before {
+  content: "\e951";
+  color: inherit;
+}
+.mutaz-Group-98:before {
+  content: "\e952";
+  color: inherit;
+}
+.mutaz-Group-1001:before {
+  content: "\e953";
+  color: inherit;
+}
+.mutaz-Group-1011:before {
+  content: "\e954";
+  color: inherit;
+}
+.mutaz-Group-1041:before {
+  content: "\e955";
+  color: inherit;
+}
+.mutaz-Group-1571:before {
+  content: "\e956";
+  color: inherit;
+}
+.mutaz-Group-233:before {
+  content: "\e957";
+  color: inherit;
+}
+.mutaz-Group-235:before {
+  content: "\e958";
+  color: inherit;
+}
+.mutaz-Group-237:before {
+  content: "\e959";
+  color: inherit;
+}
+.mutaz-Group-239:before {
+  content: "\e95a";
+  color: inherit;
+}
+.mutaz-Art--Design:before {
+  content: "\e92d";
+  color: inherit;
+}
+.mutaz-Audio-and-Video:before {
+  content: "\e92e";
+  color: inherit;
+}
+.mutaz-Books--Reference:before {
+  content: "\e92f";
+  color: inherit;
+}
+.mutaz-Browsers-and-Internet-Tools:before {
+  content: "\e930";
+  color: inherit;
+}
+.mutaz-Business:before {
+  content: "\e931";
+  color: inherit;
+}
+.mutaz-Communication:before {
+  content: "\e932";
+  color: inherit;
+}
+.mutaz-Education:before {
+  content: "\e933";
+  color: inherit;
+}
+.mutaz-Entertainment:before {
+  content: "\e934";
+  color: inherit;
+}
+.mutaz-google:before {
+  content: "\e935";
+  color: inherit;
+}
+.mutaz-Health--Fitness:before {
+  content: "\e936";
+  color: inherit;
+}
+.mutaz-House--Home:before {
+  content: "\e937";
+  color: inherit;
+}
+.mutaz-Keyboards:before {
+  content: "\e938";
+  color: inherit;
+}
+.mutaz-Lifestyle:before {
+  content: "\e939";
+  color: inherit;
+}
+.mutaz-Maps--Navigation:before {
+  content: "\e93a";
+  color: inherit;
+}
+.mutaz-Medica:before {
+  content: "\e93b";
+  color: inherit;
+}
+.mutaz-Messaging-and-Chat:before {
+  content: "\e93c";
+  color: inherit;
+}
+.mutaz-News--Magazines:before {
+  content: "\e93d";
+  color: inherit;
+}
+.mutaz-Personalization:before {
+  content: "\e93e";
+  color: inherit;
+}
+.mutaz-Photography:before {
+  content: "\e93f";
+  color: inherit;
+}
+.mutaz-productive:before {
+  content: "\e940";
+  color: inherit;
+}
+.mutaz-Shopping:before {
+  content: "\e941";
+  color: inherit;
+}
+.mutaz-Social:before {
+  content: "\e942";
+  color: inherit;
+}
+.mutaz-Sports-Apps:before {
+  content: "\e943";
+  color: inherit;
+}
+.mutaz-Tools:before {
+  content: "\e944";
+  color: inherit;
+}
+.mutaz-Travel--Local:before {
+  content: "\e945";
+  color: inherit;
+}
+.mutaz-andriod-launcher:before {
+  content: "\e946";
+  color: inherit;
+}
+.mutaz-Android-Apps-Markets:before {
+  content: "\e947";
+  color: inherit;
+}
+.mutaz-Anti-Virus-And-Firewalls:before {
+  content: "\e948";
+  color: inherit;
+}
+.mutaz-linux:before {
+  content: "\e900";
+  color: inherit;
+}
 .mutaz-Description:before {
   content: "\e928";
 }
@@ -41,7 +228,7 @@
   content: "\e92c";
 }
 .mutaz-Autodesk-Products:before {
-  content: "\e900";
+  content: "\e901";
   color: inherit;
 }
 .mutaz-Browsers-and-Plugins:before {
@@ -65,7 +252,7 @@
   color: inherit;
 }
 .mutaz-Cumulative-Update-for-Windows:before {
-  content: "\e906";
+  content: "\e908";
   color: inherit;
 }
 .mutaz-Desktop-Programs:before {
@@ -73,118 +260,118 @@
   color: inherit;
 }
 .mutaz-Drivers-Programs:before {
-  content: "\e901";
+  content: "\e906";
   color: inherit;
 }
 .mutaz-Engineering-Programs:before {
-  content: "\e908";
-  color: inherit;
-}
-.mutaz-File-Transfer-and-Networking:before {
   content: "\e909";
   color: inherit;
 }
-.mutaz-Games-Programs:before {
+.mutaz-File-Transfer-and-Networking:before {
   content: "\e90a";
   color: inherit;
 }
-.mutaz-Language-Packs:before {
+.mutaz-Games-Programs:before {
   content: "\e90b";
   color: inherit;
 }
-.mutaz-Messaging-and-Chat:before {
+.mutaz-Language-Packs:before {
   content: "\e90c";
   color: inherit;
 }
-.mutaz-Microsoft-Products:before {
+.mutaz-Messaging-and-Chat1:before {
   content: "\e90d";
   color: inherit;
 }
-.mutaz-Office-and-News:before {
+.mutaz-Microsoft-Products:before {
   content: "\e90e";
   color: inherit;
 }
-.mutaz-Photos-and-Images:before {
+.mutaz-Office-and-News:before {
   content: "\e90f";
   color: inherit;
 }
+.mutaz-Photos-and-Images:before {
+  content: "\e910";
+  color: inherit;
+}
 .mutaz-Programing:before {
-  content: "\e910";
-  color: inherit;
-}
-.mutaz-Special-programs:before {
-  content: "\e910";
-  color: inherit;
-}
-.mutaz-Recovery-Programs:before {
   content: "\e911";
   color: inherit;
 }
-.mutaz-Rescue-CD:before {
+.mutaz-Special-programs:before {
+  content: "\e911";
+  color: inherit;
+}
+.mutaz-Recovery-Programs:before {
   content: "\e912";
   color: inherit;
 }
-.mutaz-SVU-Programs:before {
+.mutaz-Rescue-CD:before {
   content: "\e913";
   color: inherit;
 }
-.mutaz-System-Tuning:before {
+.mutaz-SVU-Programs:before {
   content: "\e914";
   color: inherit;
 }
-.mutaz-System-Utilities-and-Tools:before {
+.mutaz-System-Tuning:before {
   content: "\e915";
   color: inherit;
 }
-.mutaz-Virtual-Machines-by-Microsoft:before {
+.mutaz-System-Utilities-and-Tools:before {
   content: "\e916";
   color: inherit;
 }
-.mutaz-Adobe-Products:before {
+.mutaz-Virtual-Machines-by-Microsoft:before {
   content: "\e917";
   color: inherit;
 }
-.mutaz-Anti-Virus-And-Firewalls:before {
+.mutaz-Adobe-Products:before {
   content: "\e918";
   color: inherit;
 }
-.mutaz-Audio-and-Video:before {
+.mutaz-Anti-Virus-And-Firewalls1:before {
   content: "\e919";
   color: inherit;
 }
-.mutaz-ads:before {
+.mutaz-Audio-and-Video1:before {
   content: "\e91a";
-  color: #e6e6e6;
+  color: inherit;
 }
-.mutaz-Android:before {
+.mutaz-ads:before {
   content: "\e91b";
   color: inherit;
 }
-.mutaz-Blog:before {
+.mutaz-Android:before {
   content: "\e91c";
   color: inherit;
 }
-.mutaz-Contact-Me:before {
+.mutaz-Blog:before {
   content: "\e91d";
   color: inherit;
 }
-.mutaz-contact-us:before {
+.mutaz-Contact-Me:before {
   content: "\e91e";
-  color: #e6e6e6;
+  color: inherit;
 }
-.mutaz-Courses:before {
+.mutaz-contact-us:before {
   content: "\e91f";
   color: inherit;
 }
-.mutaz-E-Book .path1:before {
+.mutaz-Courses:before {
   content: "\e920";
-  color: rgb(255, 255, 255);
+  color: inherit;
+}
+.mutaz-E-Book .path1:before {
+  content: "\e921";
+  color: inherit;
   opacity: 0.46;
 }
 .mutaz-E-Book .path2:before {
-  content: "\e921";
+  content: "\e949";
   margin-left: -0.7275390625em;
-  color: rgb(255, 255, 255);
+  color: inherit;
 }
 .mutaz-Firmwares:before {
   content: "\e922";
@@ -200,13 +387,9 @@
 }
 .mutaz-open:before {
   content: "\e925";
-  color: #e6e6e6;
+  color: inherit;
 }
-.mutaz-sun:before {
-  content: "\e926";
-  color: #e6e6e6;
-  
-}
+
 .mutaz-Windows:before {
   content: "\e927";
   color: inherit;
